@@ -1,12 +1,10 @@
-# python-api-challenge
+# Python API's Weather & Vacation Analysis
+
 # Summary:
 
-This project involves using Python requests, APIs, and JSON traversals to answer the question: "What is the weather like as we approach the equator?" By analyzing over 500 cities' weather data from varying distances from the equator, we'll create scatter plots and conduct linear regressions to explore relationships between weather variables and latitude. Additionally, we'll utilize the Geoapify API and geoViews Python library in Part 2 to plan future vacations based on ideal weather conditions.
+This project involves using Python requests, APIs, and JSON traversals to answer the question: "What is the weather like as we approach the equator?" By analyzing over 500 cities' weather data from varying distances from the equator, we'll create scatter plots and conduct linear regressions to explore relationships between weather variables and latitude. Additionally, we'll utilize the Geoapify API and geoViews Python library in Part 2 to plan future vacations based on ideal weather conditions. 
 
-WeatherPy has all solution files, and the api_keys.py file. 
-output_data has the required csv and image files from running the code. 
-
-Please read the following for both WeatherPy.ipynb and VacationPy.ipynb: 
+# Description of Code - WeatherPy: 
 
 For WeatherPy.ipynb
 
@@ -35,6 +33,9 @@ For WeatherPy.ipynb
 
     Once all of these items were finalized, I was able to move through the project and complete the required calculations, as well as plot the necessary charts to calculate the final results. 
 
+![alt text](Screenshots/weather_api_data.png)
+
+# Description of Code - VacationPy: 
 
 For VacationPy.ipynb
 
@@ -60,6 +61,14 @@ For VacationPy.ipynb
 
         Once the information was received in the json format, the hotel name was found to be located within "features" and "properties". The try and except code was added in order to enable the program to move forward with the code if no hotel name is found. If the try and except feature is not added, the code will not complete the tasks it needs to do in order to finish running the program. 
 
-        After running the full program, a list was created with the nearest hotels. This list was then mapped using hvplot to visualize the data points.  
+        After running the full program, a list was created with the nearest hotels. This list was then mapped using hvplot to visualize the data points. 
+        
+![alt text](Screenshots/vacation_py_hotels.png)         
+
+# File Information:
+
+WeatherPy has all solution files, and the api_keys.py file. 
+output_data has the required csv and image files from running the code.
+
 
     -End of README.md
