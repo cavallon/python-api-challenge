@@ -1,4 +1,7 @@
 # python-api-challenge
+# Summary:
+
+This project involves using Python requests, APIs, and JSON traversals to answer the question: "What is the weather like as we approach the equator?" By analyzing over 500 cities' weather data from varying distances from the equator, we'll create scatter plots and conduct linear regressions to explore relationships between weather variables and latitude. Additionally, we'll utilize the Geoapify API and geoViews Python library in Part 2 to plan future vacations based on ideal weather conditions.
 
 WeatherPy has all solution files, and the api_keys.py file. 
 output_data has the required csv and image files from running the code. 
